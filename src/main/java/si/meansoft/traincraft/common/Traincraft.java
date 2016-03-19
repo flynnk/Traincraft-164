@@ -11,6 +11,7 @@ import net.minecraftforge.fml.common.event.FMLServerStoppedEvent;
 import si.meansoft.traincraft.common.blocks.TCBlocks;
 import si.meansoft.traincraft.common.core.CreativeTabTraincraft;
 import si.meansoft.traincraft.common.core.handlers.OreHandler;
+import si.meansoft.traincraft.common.core.handlers.RecipeHandler;
 import si.meansoft.traincraft.common.items.TCItems;
 import si.meansoft.traincraft.common.library.Info;
 
@@ -156,8 +157,8 @@ public class Traincraft
 		OreHandler.registerOres();
 //
 //		/* Recipes */
-//		RecipeHandler.initBlockRecipes();
-//		RecipeHandler.initItemRecipes();
+		RecipeHandler.initBlockRecipes();
+		RecipeHandler.initItemRecipes();
 //		AssemblyTableRecipes.recipes();
 //
 //		/* Register the liquids */

@@ -1,0 +1,16 @@
+[
+{
+  "modid": "traincraft",
+  "name": "Traincraft",
+  "description": "Adds lots of trains.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "http://traincraft-mod.com/",
+  "updateUrl": "",
+  "authorList": ["ExampleDude"],
+  "credits": "Mr. Brutal original mod.  Updated to 1.9 by TFCKenn",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
